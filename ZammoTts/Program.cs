@@ -56,7 +56,7 @@ namespace ZammoTts
                 var formSignInButton = wait.Until(ExpectedConditions.ElementIsVisible(By.Id("signInSubmit")));
                 formSignInButton.Click();
 
-                var developerConsoleLink = wait.Until(ExpectedConditions.ElementIsVisible(By.LinkText("Developer Console")));
+                var developerConsoleLink = wait.Until(ExpectedConditions.ElementIsVisible(By.LinkText("Apps & Services")));
 
                 // we are logged in, grab the cookies
 
